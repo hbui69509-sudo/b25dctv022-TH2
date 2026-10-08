@@ -1,4 +1,4 @@
-const API_URL = 'https://6ac70236bea0e72cf5c962d5.mockapi.io/';
+const API_URL = 'https://6ac70236bea0e72cf5c962d5.mockapi.io/books';
 let books = [];
 let favorites = JSON.parse(localStorage.getItem('favs')) || [];
 
